@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+    /* empieza la barra de navegacion */
+header{
+    height: 3.125rem;
+    background-color: #3967A7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    color: white;
+    margin: .75rem;
+}
+.navegador{
+    display: flex;
+    list-style: none;
+    gap: .625rem;
+    padding-right: .625rem;
+
+}
+.navegador li a {
+    text-decoration: none;
+    color: white;
+    transition-property: color;
+    transition-duration: 0.8s;
+}
+.navegador li a:hover{
+    color: black;
+}
+/* termina la barra de navegacion */ 
+
+
+h2{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    background-image: url(../multimedia/img/Imagen.jpg);
+    background-attachment: fixed;
+    padding: 30px;
+    background-position: center;
+    background-color: #0008;
+    margin: 0;
+}
+/* imagenes y descripcion */
+
+.sectiondos{
+    display: flex;
+    flex-direction: row;
+    margin: 1.875rem;
+    gap: .625rem;
+}
+.campeones{
+    width: 35%;
+    height: 35%;
+}
+.text-image-section2{
+    background-color: rgba(128, 128, 128, 0.336);
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 4px;
+}
+.sectiondos p{
+    margin: auto;
+}
+.sectiondos img{
+    height: 18.75rem;
+    border-radius: 1.0625rem;
+}
+/*---termina----*/
+
+/* tercer seccion*/
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin: 30px
+    
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.image {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 17px;
+    transition-duration: .5s;
+}
+.image img:hover{
+    box-shadow: 6px 6px 6px 6px black;
+    border-radius: 30px;
+}
+
+.image p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.25rem;
+}
+
+
+/* termina pagina 1 */
+
+.informacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 15px;
+}
+.fotos{
+    border-radius: 17px;
+    height: 300px;
+    width: 220px;
+}
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 300px;
+    background-color: #b0b0b0;
+    width: 220px;
+    border-radius: 17px;
+    font-size: .9375rem;
+    margin: 0 10px 20px 10px;
+}
+.contenedor h3{
+    background-color: #3967A7;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    height: 35px;
+    width: 90px;
+    padding-top: 2,5px;
+}
+.contenedor p{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1px;
+}
+.grupo {
+    flex-basis: 30px; /* Para que haya espacio entre los elementos */
+    margin-bottom: 10px; /* Espacio entre los grupos */
+}
+/* footer */
+.pie-de-pagina{
+    background-color: #3967A7;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
