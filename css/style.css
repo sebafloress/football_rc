@@ -47,13 +47,14 @@ h2{
     background-position: center;
     background-color: #0008;
     margin: 0;
+    text-shadow: 4px 4px 8px black
 }
 /* imagenes y descripcion */
 
 .sectiondos{
     display: flex;
     flex-direction: row;
-    margin: 1.875rem;
+    margin: 20px;
     gap: .625rem;
 }
 .campeones{
@@ -139,6 +140,15 @@ h3{
     font-size: .9375rem;
     margin: 0 10px 20px 10px;
 }
+.lucio {
+    display: flex;
+}
+.thiago{
+display: flex;
+}
+.toby{
+    display: flex;
+}
 .contenedor h3{
     background-color: #3967A7;
     margin: 10px;
@@ -207,5 +217,150 @@ h3{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
+    padding: 25px
+}
+/* resposive 1 */
+@media screen and (max-width: 1024px){
+    .sectiondos{
+        margin: 0px;
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .campeones{
+        width: 70%;
+        margin: auto;
+    }
+    .text-image-section2{
+        margin: auto;
+        width: 70%;
+    }
+    .sectiondos img{
+        height: auto;
+        border-radius: 1.0625rem;
+        margin-top: 20px;
+}
+.container-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+@media (max-width: 748px) {
+    h1{
+        font-size: 1.125rem;
+    }
+    .pie-de-pagina p {
+        font-size: 13px;
+    }
+    .icono{
+        height: 30px;
+    }
+}
+@media (max-width:626px){
+    header{
+        flex-direction: column;
+    }
+    .nav{
+        background-color:#3967A7;
+        width: 100%;
+    }
+    .navegador{
+        margin-bottom: 20px;
+        padding-left: 60px;
+    }
+}
+@media (max-width:576px){
+    
+    .navegador{
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+    .navegador li a {
+        font-size: 11px;
+    }
+    .divh2{
+        margin-top: 180px;
+    }
+    h1{
+        text-align: center;
+        margin: auto;
+    }
+    .pie-de-pagina p {
+        font-size: 10px;
+    }
+    .icono{ 
+        height: 20px;
+    }
+}
+@media (max-width:425px) {
+    .icono{
+        height: 15px;
+    }
+    .pie-de-pagina p {
+        font-size: 7px;
+    }
+    .text-image-section2{
+        font-size: 12px;
+    }
+}
+@media (max-width:320px){
+    h2{
+        font-size: 20px;
+    }
+}
+/*media queri arqueros */
+
+@media(max-width:1024px){
+    .toby{
+        display: flex;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .thiago{
+        display: flex;
+    }
+    .lucio{
+        display: flex;
+        margin-left: 30px;
+    }
+    }
+    @media (max-width:981px){
+        .informacion{
+            flex-direction: column;
+        }
+        .thiago{
+            margin: auto;
+            margin-top: 10px;
+        }
+        .lucio{
+            margin: auto;
+            margin-top: 10px;
+        }
+        
+    }
+@media (max-width:458px){
+    .informacion{
+        flex-direction: row;
+        display: flex;
+    }
+    .lucio{
+        flex-direction: column;
+        margin: 10px auto ;
+    }
+    .thiago{
+        flex-direction: column;
+        margin: 10px auto ;
+
+    }
+    .toby{
+        flex-direction: column;
+        margin: 10px auto ;
+    }
+    .fotos{
+        margin: auto;
+    }
+    .container-info{
+        margin-top: 10px;
+    }
 }
