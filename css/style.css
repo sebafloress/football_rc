@@ -22,7 +22,6 @@ h1 {
     list-style: none;
     gap: .625rem;
     padding-right: .625rem;
-
 }
 .navegador li a {
     text-decoration: none;
@@ -34,8 +33,6 @@ h1 {
     color: black;
 }
 /* termina la barra de navegacion */ 
-
-
 h2{
     text-align: center;
     width: 100%;
@@ -50,7 +47,6 @@ h2{
     text-shadow: 4px 4px 8px black
 }
 /* imagenes y descripcion */
-
 .sectiondos{
     display: flex;
     flex-direction: row;
@@ -77,7 +73,6 @@ h2{
     border-radius: 1.0625rem;
 }
 /*---termina----*/
-
 /* tercer seccion*/
 h3{
     text-align: center;
@@ -91,12 +86,10 @@ h3{
     align-items: center;
     width: 100%;
 }
-
 .image {
     text-align: center;
     flex-grow: 1;
 }
-
 .image img {
     max-width: 100%;
     height: auto;
@@ -107,20 +100,17 @@ h3{
     box-shadow: 6px 6px 6px 6px black;
     border-radius: 30px;
 }
-
 .image p {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 1.25rem;
 }
-
-
 /* termina pagina 1 */
-
 .informacion {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 5px;
     margin: 10px;
     padding: 0px;
 }
@@ -256,7 +246,7 @@ display: flex;
     .pie-de-pagina p {
         font-size: 13px;
     }
-    .icono{
+    .icono img{
         height: 30px;
     }
 }
@@ -293,12 +283,12 @@ display: flex;
     .pie-de-pagina p {
         font-size: 10px;
     }
-    .icono{ 
+    .icono img { 
         height: 20px;
     }
 }
 @media (max-width:425px) {
-    .icono{
+    .icono img {
         height: 15px;
     }
     .pie-de-pagina p {
@@ -314,7 +304,6 @@ display: flex;
     }
 }
 /*media queri arqueros */
-
 @media(max-width:1024px){
     .toby{
         display: flex;
@@ -355,7 +344,6 @@ display: flex;
     .thiago{
         flex-direction: column;
         margin: 10px auto ;
-
     }
     .toby{
         flex-direction: column;
