@@ -1,0 +1,28 @@
+header{
+    height: 3.125rem;
+    background-color: map-get($colores, fondo );
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+h1 {
+    color: map-get($colores,letras);
+    margin: .75rem;
+}
+.navegador{
+    display: flex;
+    list-style: none;
+    gap: .625rem;
+    padding-right: .625rem;
+}
+
+.navegador li a {
+    text-decoration: none;
+    color: map-get($colores,letras);
+    transition-property: color;
+    transition-duration: 0.8s;
+}
+.navegador li a:hover{
+    color: map-get($colores,hover );
+}
+}
