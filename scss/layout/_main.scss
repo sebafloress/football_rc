@@ -1,7 +1,7 @@
 h2 {
     text-align: center;
     width: 100%;
-    color: white;
+    color: map-get($colores,letras );
     font-size: 30px;
     background-image: url(../multimedia/img/Imagen.jpg);
     background-attachment: fixed;
@@ -30,11 +30,11 @@ h2 {
     background-color: rgba(128, 128, 128, 0.336);
     border-radius: 20px;
     text-align: center;
-    margin: auto;
+    margin: $margin-auto;
     padding: 4px;    
 }
 .sectiondos p {
-    margin: auto;
+    margin: $margin-auto;
 }
 
 .sectiondos img {
@@ -51,9 +51,7 @@ h3 {
 }
 
 .container-index {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+@include flex (none,space-between,center);
     width: 100%;
 }
 
@@ -101,7 +99,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-between;
     height: 300px;
-    background-color: #b0b0b0;
+    background-color:map-get($colores, fondo2 );
     width: 220px;
     border-radius: 17px;
     font-size: 0.9375rem;
@@ -112,13 +110,13 @@ h3 {
     display: flex;
     margin: 0 0 10px 0px;
 }.lucio {
-    display: flex;}.thiago {
     display: flex;}
-
+.thiago {
+    @extend .lucio}
 .toby {
-    display: flex;
+    @extend .lucio ;
 }.contenedor h3 {
-    background-color: #3967A7;
+    background-color:map-get($colores,fondo );
     margin: 10px;
     border-radius: 10px;
     font-size: 1rem;
@@ -150,7 +148,7 @@ h3 {
     border: 1px solid #ccc; /* Añadir borde al contenedor */
     padding: 10px; /* Añadir relleno al contenedor */
     max-height: 300px;
-    background-color: #b0b0b0;
+    background-color: map-get($colores,fondo2 );
     border-radius: 17px;
 }
 
@@ -172,10 +170,9 @@ h3 {
 }
 
 .item-sub {
-    padding: px; /* Espacio interior de los elementos */
+    padding: 1px; /* Espacio interior de los elementos */
     text-align: left; /* Alineación del texto dentro de los elementos */
     font-size: 12px; /* Tamaño de fuente */
-    border-radius: px;
     border-left: 1px solid rgb(255, 255, 255);
 }
 

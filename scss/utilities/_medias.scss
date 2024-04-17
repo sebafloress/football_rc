@@ -6,10 +6,10 @@
     }
     .campeones{
         width: 70%;
-        margin: auto;
+        margin: $margin-auto;
     }
     .text-image-section2{
-        margin: auto;
+        margin: $margin-auto;
         width: 70%;
     }
     .sectiondos img{
@@ -141,10 +141,11 @@
     }
 }
 /*responsive delanteros */
-@media(max-width:1024px){
+@media(max-width:1332px){
     .delanteros{
         display: flex;
-        margin-left: 30px;
+        margin: auto;
+        margin-top: 10px;
     }
 }
 @media (max-width:1021px){
