@@ -378,7 +378,7 @@ h3 {
   }
 }
 /*media queri arqueros */
-@media (max-width: 1024px) {
+@media (max-width: 1432px) {
   .toby {
     display: flex;
     margin: auto;
@@ -392,7 +392,7 @@ h3 {
     margin-left: 30px;
   }
 }
-@media (max-width: 981px) {
+@media (max-width: 1021px) {
   .informacion {
     flex-direction: column;
   }
@@ -442,7 +442,7 @@ h3 {
   }
 }
 /*responsive delanteros */
-@media (max-width: 1332px) {
+@media (max-width: 1432px) {
   .delanteros {
     display: flex;
     margin: auto;
